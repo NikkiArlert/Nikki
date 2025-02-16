@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическое задание CSS</title>
+    <link rel="stylesheet" href="style.css" title="Основной стиль">
+    <link rel="stylesheet" href="alternative.css" title="Альтернативный стиль" id="alternative-styles" disabled>
+  
+</head>
+<body>
+
+    <h1>Заголовок h1</h1>
+    <p>Параграф текста. <span class="highlight">Выделенный текст.</span></p>
+    <p id="special">Параграф со специальным стилем.</p>
+
+    <div class="container">
+        <h2>Заголовок h2 внутри контейнера</h2>
+        <p>Еще один параграф текста.</p>
+    </div>
+
+    <ul>
+        <li>Элемент ненумерованного списка</li>
+        <li>Еще один элемент</li>
+    </ul>
+
+    <ol>
+        <li>Первый элемент нумерованного списка</li>
+        <li>Второй элемент</li>
+    </ol>
+
+    <p><a href="#">Ссылка</a></p>
+
+    
+    <p class="inline-style">Параграф с встроенным стилем.</p>
+    
+    <script>
+      function toggleStyles() {
+      const alternativeStyles = document.getElementById('alternative-styles');
+      alternativeStyles.disabled = !alternativeStyles.disabled;
+}
+      
+    </script>
+  
+    <button onclick="toggleStyles()">Переключить альтернативный стиль</button>
+  
+
+</body>
+</html>

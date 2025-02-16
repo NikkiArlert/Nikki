@@ -1,0 +1,39 @@
+h1 {
+    color: blue;
+    font-size: 3em;
+}
+
+.highlight {
+    background-color: #ff0000;
+}
+
+#special {
+    font-style: italic;
+}
+
+div.container h2 {
+    color: green;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+body {
+  background-color: #f0f0f0; 
+  font-family: sans-serif;    
+}
+
+
+p.inline-style {
+            color: green;
+        }
